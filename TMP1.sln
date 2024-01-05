@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMP1", "TMP1\TMP1.csproj", "{A9616A4A-638C-4BF4-A517-173C1A7D0463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{9521C5A2-798B-499B-8A42-830DECF8D4F3}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9616A4A-638C-4BF4-A517-173C1A7D0463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9616A4A-638C-4BF4-A517-173C1A7D0463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9616A4A-638C-4BF4-A517-173C1A7D0463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9616A4A-638C-4BF4-A517-173C1A7D0463}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

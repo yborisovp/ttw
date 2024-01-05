@@ -25,10 +25,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: yborisovp/test-to-delete:123Ad
-          
-      - name: Push the images to Docker Hub
-        run: docker push yborisovp/test-to-delete
+          tags: yborisovp/test-to-delete:latest
         
       - name: Deploy Image to CapRrover
         uses: caprover/deploy-from-github@v1.1.2

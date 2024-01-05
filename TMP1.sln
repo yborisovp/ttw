@@ -5,6 +5,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{9521C5A2-798B-499B-8A42-830DECF8D4F3}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
+		.github\workflows\docker-image.yml = .github\workflows\docker-image.yml
 	EndProjectSection
 EndProject
 Global
